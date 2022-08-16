@@ -1,6 +1,8 @@
+import bg1 from './images/bg1.jpeg'
+
 const pages = [
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Proposta de Valor',
     paragraphs: [
       '“Um conceito de imersão na cultura regional”',
@@ -8,14 +10,14 @@ const pages = [
     ]
   },
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Orientação da Empresa',
     paragraphs: [
       'No Aliment\'Art buscamos agregar qualidade em nossos pratos e fornecer aos nossos clientes uma experiência única que os permite conhecer as raízes e sabores de nossa terra, tudo isso, a um preço acessível.'
     ]
   },
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Abordagem de Troca da Empresa',
     paragraphs: [
       'Nossa abordagem de troca se baseia na estratégia de marketing de relacionamento. Buscamos legitimar nossa marca como uma referência no segmento de atuação (bares e restaurantes) e com isso, proporcionar a prospecção e a fidelização de nossos clientes ao promover uma experiência única de imersão na cultura regional.',
@@ -23,7 +25,7 @@ const pages = [
     ]
   },
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Abordagem de Troca da Empresa',
     paragraphs: [
       'O “Cartão Fidelidade” é um programa de benefício que concede um vale experiência para o cliente após a consumação de 10 refeições, devidamente registradas em cartão próprio e autenticadas com o carimbo do estabelecimento.',
@@ -31,7 +33,7 @@ const pages = [
     ]
   },
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Papéis Chave',
     paragraphs: [
       'Em nossas atividades estabelecemos parcerias com empresas portuárias a fim de fornecer uma opção diferenciada de alimentação para seus colaboradores e clientes, os quais caracterizam o turismo corporativo na cidade.',
@@ -40,7 +42,7 @@ const pages = [
     ]
   },
   {
-    img: '/bg1.jpeg',
+    img: bg1,
     title: 'Indicadores de Avaliação da Satisfação do Cliente',
     paragraphs: [
       'Os níveis de satisfação de nossos clientes são mensurados rotineiramente, com o intuito de visualizar o desempenho do Aliment\'Art sob a ótica dos nossos consumidores. Para isso, são avaliados os seguintes indicadores:',
