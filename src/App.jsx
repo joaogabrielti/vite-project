@@ -26,6 +26,10 @@ export default function App() {
     setPage(-1)
   }, [])
 
+  const closeMenu = useCallback(() => {
+    setPage(pages.length - 1)
+  } , [])
+
   return (
     <div className="relative flex flex-col min-h-screen">
       {page >= 0 && (
@@ -45,7 +49,7 @@ export default function App() {
           </footer>
         </>
       )}
-      {page === -1 && <Menu />}
+      {page === -1 && <Menu closeMenu={closeMenu} />}
     </div>
   )
 }
