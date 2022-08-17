@@ -6,6 +6,19 @@ h1, h2 {
   font-family: 'Dancing Script', cursive;
 }
 
+p, button, li {
+  font-family: 'Roboto', sans-serif;
+}
+
 .text-shadow {
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.8);
+}
+
+.menu h1, .menu h2 {
+  font-family: 'Imperial Script', cursive;
+}
+
+html, body, div {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
