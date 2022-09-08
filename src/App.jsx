@@ -26,6 +26,7 @@ export default function App() {
     setPage(-1)
   }, [])
 
+
   const closeMenu = useCallback(() => {
     setPage(pages.length - 1)
   } , [])
